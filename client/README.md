@@ -1,7 +1,7 @@
 ## How to run locally?
 
 1. Clone and cd into the repo.
-2. Run `npm` to download dependencies.
+2. Run `npm i` to download dependencies.
 3. Run `npm start` to start the development server.
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
