@@ -14,7 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/emrullahayin/react-file-uploader-with-express.git"
   },
-  "keywords": ["express", "react", "fileupload"],
+  "keywords": [
+    "express",
+    "react",
+    "fileupload"
+  ],
   "author": "Emrullah Ayın",
   "license": "ISC",
   "bugs": {
