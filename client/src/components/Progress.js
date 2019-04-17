@@ -8,8 +8,9 @@ function Progress({ percentage }) {
         className="progress-bar progress-bar-striped progress-bar-animated"
         role="progressbar"
         style={{ width: `${percentage}%` }}
-      />
-      {percentage}%
+      >
+        {percentage}%
+      </div>
     </div>
   );
 }
