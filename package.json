@@ -19,7 +19,11 @@
     "react",
     "fileupload"
   ],
-  "author": "Emrullah Ayın",
+  "author": {
+    "name": "Emrullah Ayın",
+    "email": "ayinemrullah@gmail.com",
+    "url": "https://github.com/emrullahayin"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/emrullahayin/react-file-uploader-with-express/issues"

@@ -9,7 +9,7 @@ const FileUpload = () => {
   const [uploadedFile, setUploadedFile] = useState({});
   const [message, setMessage] = useState("");
   const [uploadPercentage, setUploadPercentage] = useState(0);
-  
+
   const onChange = e => {
     setFile(e.target.files[0]);
     setFilename(e.target.files[0].name);
@@ -34,7 +34,9 @@ const FileUpload = () => {
           setTimeout(() => setUploadPercentage(0), 10000);
         }
       });
+
       const { fileName, filePath } = res.data;
+
       setUploadedFile({ fileName, filePath });
       setMessage("File Uploaded");
     } catch (err) {
@@ -43,7 +45,7 @@ const FileUpload = () => {
       } else {
         setMessage(err.response.data.msg);
       }
-      setUploadPercentage(0)
+      setUploadPercentage(0);
     }
   };
 
